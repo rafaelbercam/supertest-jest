@@ -4,7 +4,7 @@
   "description": "automated tests using jest and supertest",
   "main": "index.js",
   "scripts": {
-    "test-dev": "cross-env ENVIRONMENT='dev' jest",
+    "test-dev": "cross-env ENVIRONMENT='dev' jest --verbose",
     "test-prod": "cross-env ENVIRONMENT='prod' jest"
   },
   "keywords": [

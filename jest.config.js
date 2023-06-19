@@ -6,9 +6,11 @@ module.exports = {
       [
         'jest-html-reporters',
         {
+          pageTitle: "Supertest API Tests",
           publicPath: './test-reports',
           filename: 'report.html',
           expand: true,
+          includeConsoleLog: true,
         },
       ],
     ],
