@@ -32,9 +32,11 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 [supertest-jest]
     [src]
         [__tests__] - Arquivo de testes do Jest
+        [factory] - Configuração massa de testes com Fakerjs
         [config] - Configurações do ambiente
         [service] - Chamadas abtraídas do Supertest
-
+        .env - Variáveis de ambiente
+        jest.config.js - Configurações do Jest e Report
 ```
 
 ## Como executar os testes
