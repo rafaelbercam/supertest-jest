@@ -11,6 +11,13 @@ module.exports = {
           filename: 'report.html',
           expand: true,
           includeConsoleLog: true,
+          inlineSource: true,
+          customInfos: [
+            {title: 'App Test', value: `<a href="https://serverest.dev">Serverest</a>`},
+            {title: 'Ambiente', value: `${process.env.ENVIRONMENT}`},
+            {title: 'Criado por:', value: `Rafael Berçam`},
+          ]
+        
         },
       ],
     ],

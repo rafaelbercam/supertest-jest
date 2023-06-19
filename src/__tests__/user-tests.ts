@@ -5,7 +5,7 @@ let newUser:any;
 let response:any;
 let _id:String;
 
-describe("User endpoint Serverest", () => {
+describe("/user test scenarios", () => {
   beforeEach(async()=>{
     newUser = UserFactory.createUser();
     response = await postNewUser(newUser);
