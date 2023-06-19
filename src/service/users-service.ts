@@ -28,7 +28,7 @@ export async function postNewUser(user:any) {
 
 export async function putUser(user:any, _id:String) {
     return await request(conf.url)
-                 .post("/usuarios")
+                 .put(`/usuarios/${_id}`)
                  .send({
                     "nome": user.nome,
                     "email": user.email,
@@ -39,5 +39,5 @@ export async function putUser(user:any, _id:String) {
 
 export async function deleteUser(_id:String) {
     return await request(conf.url)
-                 .delete("/usuarios");
+                 .delete(`/usuarios/${_id}`);
 }
