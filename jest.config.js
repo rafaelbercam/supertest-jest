@@ -12,6 +12,8 @@ module.exports = {
           expand: true,
           includeConsoleLog: true,
           inlineSource: true,
+          collectCoverage: true,
+          coverageReporters: ["html"],
           customInfos: [
             {title: 'App Test', value: `<a href="https://serverest.dev">Serverest</a>`},
             {title: 'Ambiente', value: `${process.env.ENVIRONMENT}`},

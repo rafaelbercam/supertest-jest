@@ -4,6 +4,7 @@
   "description": "automated tests using jest and supertest",
   "main": "index.js",
   "scripts": {
+    "test-coverage": "cross-env ENVIRONMENT='dev' jest --coverage",
     "test-dev": "cross-env ENVIRONMENT='dev' jest",
     "test-prod": "cross-env ENVIRONMENT='prod' jest"
   },
