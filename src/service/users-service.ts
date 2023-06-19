@@ -11,8 +11,7 @@ export async function getUsers() {
 
 export async function getUserById(_id:String) {
     return await request(conf.url)
-                 .get(`/usuarios/${_id}`)
-                 .field('Content-Type', 'application/json');
+                 .get(`/usuarios/${_id}`);
 }
 
 export async function postNewUser(user:any) {
