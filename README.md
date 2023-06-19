@@ -45,7 +45,7 @@ DEV=http://localhost:3000
         [__tests__] - Arquivo de testes do Jest
         [factory] - Configuração massa de testes com Fakerjs
         [config] - Configurações do ambiente
-        [service] - Chamadas abtraídas do Supertest
+        [service] - Chamadas abstraídas do Supertest
         .env - Variáveis de ambiente
         jest.config.js - Configurações do Jest e Report
 ```
