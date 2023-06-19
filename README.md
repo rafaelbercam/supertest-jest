@@ -27,6 +27,17 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 - Yarn: [https://yarnpkg.com](https://yarnpkg.com)
 - TypeScript: `yarn global add typescript`
 
+
+### Criar arquivo de variáveis
+
+- Na raiz do projeto você precisa criar um arquivo `.env` com as variáveis de DEV e PROD do Serverest
+
+```
+PROD=https://serverest.dev
+DEV=http://localhost:3000
+```
+
+
 ## Estrutura do projeto
 ```
 [supertest-jest]
