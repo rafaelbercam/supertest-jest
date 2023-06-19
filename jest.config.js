@@ -13,7 +13,7 @@ module.exports = {
           includeConsoleLog: true,
           inlineSource: true,
           collectCoverage: true,
-          coverageReporters: ["html"],
+          coverageReporters: ["html", "json"],
           customInfos: [
             {title: 'App Test', value: `<a href="https://serverest.dev">Serverest</a>`},
             {title: 'Ambiente', value: `${process.env.ENVIRONMENT}`},
