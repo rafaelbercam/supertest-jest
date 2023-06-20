@@ -19,7 +19,6 @@ module.exports = {
             {title: 'Ambiente', value: `${process.env.ENVIRONMENT}`},
             {title: 'Criado por:', value: `Rafael Berçam`},
           ]
-        
         },
       ],
     ],
