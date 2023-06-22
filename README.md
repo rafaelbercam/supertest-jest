@@ -61,6 +61,7 @@ yarn run jest-dev
 yarn run jest-prod
 ```
 
+
 - Para executar os testes em ambiente de DEV com Coverage basta rodar o comando
 ```shell
 yarn run jest-coverage
