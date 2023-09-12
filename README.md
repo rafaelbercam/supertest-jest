@@ -54,11 +54,11 @@ DEV=http://localhost:3000
 
 - Para executar os testes em ambiente de DEV basta rodar o comando
 ```shell
-yarn run jest-dev
+yarn run test-dev
 ```
 - Ja para executar os testes em ambiente de PROD basta rodar o comando
 ```shell
-yarn run jest-prod
+yarn run test-prod
 ```
 
 
